@@ -32,4 +32,4 @@ function watcher() {
 }
 
 exports.watch = gulp.series(buildCss, watcher);
-exports.default = buildCss;
+exports.build = buildCss;
