@@ -1,0 +1,18 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules/
+
+// Changing the theme colors
+$blue:			#3d8fbe;
+$indigo:        #2a6384; //darken($blue, 15%);
+$red:			#a70a24;
+$orange:        #cc713d; //mix($red, $yellow, 50%);
+$yellow:		#f1d755;
+$green:			#3dbe6c;
+$teal:          #369484; //darken(mix($green, $blue, 50%), 5%);
+$cyan:          #62a6cc; //lighten($blue, 10%);
+$purple:        #8e486f; //lighten(mix($red, $blue, 60%), 5%);
+
+$primary:       #0033a0;
+$secondary:     #595757;
+$info:          $blue;
