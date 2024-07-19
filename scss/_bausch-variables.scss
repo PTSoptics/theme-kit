@@ -16,7 +16,7 @@
 //$border-radius: 15px;
 
 // Changing the theme colors
-$primary: #00828d;
+$primary: #E5D61C;
 //$secondary: #436296;
 //$success: #2bc550;
 //$info: #495dff;
@@ -25,6 +25,18 @@ $primary: #00828d;
 //$light: #dfe6ee;
 //$dark: #0f1319;
 
+$body-color: #002B4E;
+
+.btn {
+    $btn-color: #002B4E;
+}
+
+
+$list-group-color: #FFFFFF;
+$list-group-active-color: #002B4E;
+
+
+$gradient: linear-gradient(90deg, #C99D2C, #E5D61C);
 
 // Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
 //$theme-colors: (
